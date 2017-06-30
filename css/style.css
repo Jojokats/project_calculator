@@ -1,0 +1,129 @@
+/* ==========================================
+
+
+1- FONT STYLE
+2- BODY STYLE
+3- HEADER
+4- MAIN CALC CONTAINER
+5- DISPLAY, CLEAR & DEL BUTTONS
+6- NUMBERS ROW
+7- BUTTON STYLES
+
+ =============================================== */
+/*-------------------
+        FONT STYLE
+------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+/*----------------------------
+         BODY STYLE
+---------------------------- */
+
+body {
+    background: #769FB6;
+    background: linear-gradient(#769FB6, #4e86a6);
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+html {
+    height: 100%;
+}
+/*------------------------
+      HEADER
+-------------------------- */
+
+.header {
+    text-align: center;
+    background-color: #F7C86E;
+    padding: 20px 0 20px;
+    text-align: center;
+    color: #fff;
+}
+h1 {
+    font-size: 60px;
+}
+/* ------------------------
+   MAIN CALC CONTAINER
+ -------------------------- */
+
+#calculator {
+    width: 30%;
+    height: auto;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ACBEA3;
+    padding-top: 30px;
+}
+/* ------------------------
+   DISPLAY, CLEAR & DEL BUTTONS
+ -------------------------- */
+
+.display {
+    border: #FFFFFF solid 2px;
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+#clear {
+    border-radius: 0;
+    border-radius: 4px;
+    background-color: #F7C86E;
+    height: 50px;
+    float: right;
+    margin-right: 15px;
+}
+#backspace {
+    border-radius: 0;
+    border-radius: 4px;
+    background-color: #F7C86E;
+    height: 50px;
+    float: right;
+    margin-right: 45px;
+}
+.clearBackspace {
+    margin-top: 40px;
+    width: 100%;
+}
+/* ------------------------
+   NUMBERS ROW
+ -------------------------- */
+
+#numbers-row {
+    text-align: center;
+    margin-top: 30px;
+}
+/* ------------------------
+    BUTTON STYLES
+ -------------------------- */
+
+button {
+    margin: 8px;
+    border-radius: 38px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #ffffff;
+}
+button:hover {
+    background-color: #ee845d;
+    color: #FFFFFF;
+}
+.opp {
+    background-color: #ee845d;
+}
+.decimal:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+.operator:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+.eval:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
